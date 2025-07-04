@@ -8,8 +8,8 @@ import DropDown from "./NavItems";
 const links = [
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
-  { label: "About Us", href: "/about-us" },
-  { label: "Contact Us", href: "/contact-us" },
+  { label: "About Us", href: "/about" },
+  { label: "Contact Us", href: "/contact" },
   { label: "Career", href: "/career" },
 ];
 
@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="fixed z-50 bg-neutral-100 shadow-sm w-full">
       <div className="flex flex-row justify-between items-center  p-4 max-w-6xl mx-auto">
         <Link href="/">
-          <div className="font-extrabold text-neutral-800 text-xl">
+          <div className="font-extrabold text-blue-900 text-xl">
             PASIL TECH LIMITED
           </div>
         </Link>
@@ -35,7 +35,7 @@ export default function Navbar() {
           {links.map((link) => (
             <li key={link.href} className="">
               <Link
-                href=""
+                href={link.href}
                 className="transition-colors duration-200 ease-in-out hover:bg-blue-100 hover:text-blue-900 px-3 py-2"
               >
                 {link.label}

@@ -10,10 +10,10 @@ import {
 
 export default function Footer() {
   return (
-    <section className="text-neutral-100 bg-neutral-900 px-6 py-20">
+    <section className="text-neutral-300 bg-neutral-900 px-6 py-20">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <Link href="" className="font-extrabold text-xl">
+          <Link href="" className="font-extrabold text-xl text-blue-900">
             PASIL TECH LIMITED
           </Link>
         </div>

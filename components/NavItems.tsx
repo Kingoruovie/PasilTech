@@ -3,8 +3,8 @@ import Link from "next/link";
 const links = [
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
-  { label: "About Us", href: "/about-us" },
-  { label: "Contact Us", href: "/contact-us" },
+  { label: "About Us", href: "/about" },
+  { label: "Contact Us", href: "/contact" },
   { label: "Career", href: "/career" },
 ];
 
@@ -17,7 +17,7 @@ export default function DropDown({ open }: { open: boolean }) {
         {links.map((link) => (
           <li key={link.href} className="py-3">
             <Link
-              href=""
+              href={link.href}
               className="transition-colors duration-300 ease-in-out hover:text-blue-900 px-3 py-2"
             >
               {link.label}
