@@ -4,7 +4,7 @@ import About from "@/components/home/About";
 import ChooseUs from "@/components/home/ChooseUs";
 import HowWeWork from "@/components/home/HowWeWork";
 import WhoWeServe from "@/components/home/WhoWeServe";
-import CallToAction from "@/components/home/CallToAction";
+import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   return (

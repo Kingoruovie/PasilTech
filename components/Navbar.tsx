@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { Menu } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import DropDown from "./NavItems";
 
 const links = [
@@ -15,6 +16,12 @@ const links = [
 
 export default function Navbar() {
   const [dropDown, setDropDown] = useState<boolean>(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setDropDown(false);
+  }, [pathname]);
+
   return (
     <nav className="fixed z-50 bg-neutral-100 shadow-sm w-full">
       <div className="flex flex-row justify-between items-center  p-4 max-w-6xl mx-auto">
@@ -31,7 +38,7 @@ export default function Navbar() {
           <Menu strokeWidth={3} />
         </button>
 
-        <ul className="hidden flex-row gap-10 text-sm md:flex">
+        <ul className="hidden flex-row gap-6 text-sm md:flex">
           {links.map((link) => (
             <li key={link.href} className="">
               <Link
