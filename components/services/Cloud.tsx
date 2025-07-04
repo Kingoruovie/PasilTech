@@ -12,9 +12,9 @@ export default function Cloud() {
           <p className="text-xl mb-4">
             At Pasil TECH, we help businesses move faster and scale smarter
             through robust cloud architecture and automated infrastructure.
-            Whether you're migrating to the cloud or building cloud-native apps,
-            we ensure reliability, scalability, and cost-efficiency. We use
-            Infrastructure as Code (IaC), CI/CD pipelines, and DevOps best
+            Whether you&apos;re migrating to the cloud or building cloud-native
+            apps, we ensure reliability, scalability, and cost-efficiency. We
+            use Infrastructure as Code (IaC), CI/CD pipelines, and DevOps best
             practices to eliminate downtime and manual errors.
           </p>
           <ul className="text-lg">
