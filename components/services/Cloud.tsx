@@ -4,7 +4,7 @@ import { ChevronsRight } from "lucide-react";
 export default function Cloud() {
   return (
     <section className="my-20">
-      <div className="max-w-6xl mx-auto flex flex-row items-stretch gap-10">
+      <div className=" px-6 max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-stretch gap-10">
         <article className="max-w-2xl">
           <h2 className="text-3xl font-bold mb-4 text-blue-900">
             Cloud Computing &amp; Infrastructure Automation
@@ -69,7 +69,7 @@ export default function Cloud() {
             alt="Cloud Computing & Infrastructure Automation"
             width={1920}
             height={1080}
-            className="max-w-xl h-full object-cover"
+            className="w-full lg:max-w-xl h-[300px] lg:h-full object-cover"
           />
         </div>
       </div>
