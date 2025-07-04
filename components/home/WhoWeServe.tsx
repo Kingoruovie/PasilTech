@@ -50,7 +50,7 @@ export default function WhoWeServe() {
       <div className="text-center mt-14 mx-auto">
         <Link
           href=""
-          className="inline-block  px-4 py-3 border border-blue-500 text-blue-500 ransition-colors duration-300 ease-in-out hover:bg-blue-500 hover:text-neutral-100"
+          className="inline-block  px-4 py-3 border border-blue-900 text-blue-900 ransition-colors duration-300 ease-in-out hover:bg-blue-900 hover:text-neutral-100"
         >
           See More
         </Link>

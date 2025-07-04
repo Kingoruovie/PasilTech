@@ -13,7 +13,7 @@ export default function Hero() {
           className="h-[50vh] object-cover"
         />
       </div>
-      <article className="px-6 py-30 max-w-2xl lg:max-w-6xl lg:flex flex-rows items-center gap-18 lg:gap-24 mx-auto">
+      <article className="px-6 py-20 lg:py-30 max-w-2xl lg:max-w-6xl lg:flex flex-rows items-center gap-18 lg:gap-24 mx-auto">
         <h1 className="text-4xl font-bold ">
           Empowering Businesses &amp; Governments with Cutting-Edge Digital
           Solutions
@@ -28,13 +28,13 @@ export default function Hero() {
           <div className="mt-6 flex flex-row gap-6">
             <Link
               href=""
-              className="py-3 px-3 bg-blue-500 text-neutral-100 ransition-colors duration-300 ease-in-out hover:text-blue-500 hover:bg-blue-100"
+              className="py-3 px-3 bg-blue-900 text-neutral-100 ransition-colors duration-300 ease-in-out hover:text-blue-900 hover:bg-blue-100"
             >
               Learn more
             </Link>
             <Link
               href=""
-              className="py-3 px-3 bg-blue-100 text-blue-500 ransition-colors duration-300 ease-in-out hover:bg-blue-500 hover:text-blue-100"
+              className="py-3 px-3 bg-blue-100 text-blue-900 ransition-colors duration-300 ease-in-out hover:bg-blue-900 hover:text-blue-100"
             >
               Contact Us
             </Link>

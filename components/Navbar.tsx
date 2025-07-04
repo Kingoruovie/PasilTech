@@ -36,7 +36,7 @@ export default function Navbar() {
             <li key={link.href} className="">
               <Link
                 href=""
-                className="transition-colors duration-200 ease-in-out hover:bg-blue-100 hover:text-blue-500 px-3 py-2"
+                className="transition-colors duration-200 ease-in-out hover:bg-blue-100 hover:text-blue-900 px-3 py-2"
               >
                 {link.label}
               </Link>

@@ -18,7 +18,7 @@ export default function DropDown({ open }: { open: boolean }) {
           <li key={link.href} className="py-3">
             <Link
               href=""
-              className="transition-colors duration-300 ease-in-out hover:text-blue-500 px-3 py-2"
+              className="transition-colors duration-300 ease-in-out hover:text-blue-900 px-3 py-2"
             >
               {link.label}
             </Link>

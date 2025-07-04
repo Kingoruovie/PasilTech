@@ -1,11 +1,10 @@
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import About from "@/components/About";
-import ChooseUs from "@/components/ChooseUs";
-import HowWeWork from "@/components/HowWeWork";
-import WhoWeServe from "@/components/WhoWeServe";
-import CallToAction from "@/components/CallToAction";
-import Footer from "@/components/Footer";
+import Hero from "@/components/home/Hero";
+import Services from "@/components/home/Services";
+import About from "@/components/home/About";
+import ChooseUs from "@/components/home/ChooseUs";
+import HowWeWork from "@/components/home/HowWeWork";
+import WhoWeServe from "@/components/home/WhoWeServe";
+import CallToAction from "@/components/home/CallToAction";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <HowWeWork />
       <WhoWeServe />
       <CallToAction />
-      <Footer />
     </main>
   );
 }
